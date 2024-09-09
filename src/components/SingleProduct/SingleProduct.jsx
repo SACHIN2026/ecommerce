@@ -15,6 +15,7 @@ import { useContext } from "react";
 import { Context } from "../../utils/Context";
 //----Context----
 
+
 const SingleProduct = () => {
     const [quantity, setQuantity] = useState(1);
     const { id } = useParams();
