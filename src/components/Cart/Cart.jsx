@@ -3,10 +3,10 @@ import { BsCartX } from "react-icons/bs";
 import CartItem from "./CartItem/CartItem"
 import "./Cart.scss";
 import { useContext } from "react";
-import { Context } from "../../utils/context";
+import { Context } from "../../utils/Context";
 import { loadStripe } from "@stripe/stripe-js"
 import { makePaymentRequest } from "../../utils/api";
-
+//--------------------//dfsf
 
 const Cart = ({ setShowCart }) => {
     const { cartItems, cartSubTotal } = useContext(Context)

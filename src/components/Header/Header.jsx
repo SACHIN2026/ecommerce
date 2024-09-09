@@ -7,7 +7,7 @@ import Search from "./Search/Search";
 import Cart from "../Cart/Cart";
 import { Context } from "../../utils/Context";
 import "./Header.scss";
-
+//rgg//
 const Header = () => {
 
     const [scrolled, setScrolled] = useState(false)

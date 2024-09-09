@@ -12,8 +12,8 @@ import useFetch from "../../hooks/UseFetch"
 import { useParams } from "react-router-dom";
 import { useState } from "react";
 import { useContext } from "react";
-import { Context } from "../../utils/context";
-
+import { Context } from "../../utils/Context";
+//----Context----
 
 const SingleProduct = () => {
     const [quantity, setQuantity] = useState(1);
