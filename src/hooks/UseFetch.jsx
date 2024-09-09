@@ -2,17 +2,17 @@ import { useEffect, useState } from "react";
 
 import { fetchDataFromApi } from "../utils/api";
 
-const UseFetch = (endndpoint) => {
+const UseFetch = (endpoint) => {
     const [data, setData] = useState();
 
 
     useEffect(() => {
-        makeApiCall()
-    }, [endndpoint])
+        makeApiCall();
+    }, [endpoint]);
 
     const makeApiCall = async () => {
-        const response = await fetchDataFromApi(endndpoint);
-        setData(response)
+        const res = await fetchDataFromApi(endpoint);
+        setData(res)
 
     }
 
